@@ -1,0 +1,56 @@
+<?php
+
+ /*
+ ** Setup the system
+ */
+ $dbhost='localhost';
+ $dbuser='root';
+ $dbpass='';
+ $dbname='enosha';
+ $webroot='D:\xampp\htdocs\enosha';
+ $weburl='http://10.16.70.160/enosha';
+
+/*
+** Connect to the database
+*/
+ require_once "$webroot\lib\db_connect.php";
+
+/*
+** System Variables
+**
+** According to the server you are using, comment, uncomment and edit these lines
+*/
+
+//For Unix Users
+//$os = "unix"; $mysqldump = "mysqldump"; $zip_path = "/user/bin/zip"; $upload_path = "/var/www/html/enoshadata/"; 
+
+//For Windows Users
+$os = "windows"; $mysqldump_path = "D:/xampp/mysql/bin/mysqldump.exe"; $upload_path = "D:/xampp/enoshadata/"; 
+
+
+/*
+** Load required modules
+*/
+ require_once "$webroot\lib\start.php";
+
+
+ /*
+ ** Setup the language
+ */
+ $language =  "$webroot\lang\en";
+ require_once "$language\common.php";
+ 
+ 
+ /*
+ ** Setup the SMTP Server and e-mail notifications
+ */
+
+ $smtp_server = "192.248.16.91";
+ $site_mail = "no-reply@ucsc.cmb.ac.lk";
+ 
+ /*
+ ** Setup the rating of learning objects
+ */
+
+	$same_ip_rating = "no";  // yes or no
+?>

@@ -1,0 +1,268 @@
+body {
+	text-align:center;
+	background:url(../images/bg.gif) bottom;
+	min-height:834px;
+	height:inherit;	
+}
+a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+a:hover {
+	text-decoration: underline;
+	
+}
+#wrap {
+	width:800px;
+	text-align:left;
+	margin:0 auto;
+	position: relative;
+	top:0px;
+	border-bottom-width:thin;
+	border-color:#000000;
+	
+	
+}
+.float-l {
+	float:left;
+	width:inherit;
+	
+	
+}
+.float-l3 {
+	float:left;
+	background-color:#718dbf;
+	width: 700px;
+	padding: 5px;
+	height: auto;
+	
+	
+}
+.folat-r {
+	float:right;
+	
+}
+.clearfix {
+	clear:both
+}
+/* header */
+#header {
+	height:191px;
+	background:url(../images/hd.gif);
+	background-repeat:no-repeat;
+	position:relative
+}
+#nav {
+	background:url(../images/nav.gif);
+	height:44px;
+	position:absolute;
+	top:147px;
+	width:759px;
+	
+}
+ul#nav {
+}
+ul#nav li {
+	display:inline;
+}
+ul#nav a {
+	color:#FFFFFF;
+	font-weight:bold;
+	line-height:43px;
+	padding:0 10px;
+	border-right:#FFFFFF 1px solid;
+}
+#logo {
+	position:absolute;
+	top:40px;
+	left:100px
+}
+#logo h1 {
+	font-size:34px;
+	color:#FFFFFF
+}
+#logo div {
+	padding-left:100px
+}
+/* content */
+#content {
+	height:550px;
+	background:#FFFFFF
+}
+#content .left {
+	width:450px;
+	background:#FFFFFF url(../images/l.gif) no-repeat;
+	padding:10px
+}
+/*#con .left {
+	width:790px;#718dbf url(../images/l.gif) no-repeat;
+	padding:5px
+}*/
+#content .left h2 {
+	color:#000033;
+	font-size:34px;
+	padding:20px 0
+	
+}
+#content .left a {
+	color:#004080;
+	
+}
+
+#content .right {
+	width:300px;
+	background:#FFFFFF url(../images/r.gif) no-repeat;
+	border-left:#403f40 1px solid;
+	height:550px;
+}
+
+#con {
+	
+	background:#8ea6d2;
+	height:auto;
+	padding:10px;
+}
+
+#inner {
+	
+	background:#8ea6d2;
+	height:auto;
+	
+}
+#con .left {
+	width:790px;#718dbf url(../images/l.gif) no-repeat;
+	padding:5px
+}
+#con .left h2 {
+	color:#000033;
+	font-size:34px;
+	padding:20px 0
+}
+#con .left a {
+	color:#004080
+}
+#side #top {
+	/*background:url(../images/g_top2.gif);*/
+		background-color:#5c79af;
+	height:280px;
+}
+#side #bm {
+	/*background:url(../images/g_bm2.gif);*/
+	background-color:#5c79af;
+	-moz-border-radius: 5px;
+	
+	
+}
+#top, #bm {
+	width:187px;
+	margin:0 auto;
+	margin-top:20px;
+	padding:0 35px;
+	-moz-border-radius: 10px;
+	
+}
+#side h2 {
+	font-size:20px;
+	color:#FFFFFF;
+	/*padding:20px 0 13px 0*/
+}
+#side li {
+	list-style: url(../images/ar.gif) inside;
+	line-height:20px;
+	padding-left:0px;
+	color:#000033;
+	font-style:inherit
+	
+	
+	
+}
+/* footer */
+#footer {
+	clear:both;
+	vertical-align: middle;	
+}
+#footer {
+	height:33px;
+	color: #fff;
+	font-weight: bold;
+	/*background:#FFFFFF url(../images/f.gif) no-repeat;*/
+	background-color: #5c79af;
+	width:800px;
+	float:inherit;
+	margin-left: 0px;
+	
+}
+#xhtml {
+	position: absolute;
+	top:22px;
+	left:822px
+}
+.q {
+	width:130px;
+	padding:5px 0
+}
+
+.RoundContentArea {
+-moz-border-radius:10px;
+    width:750px;
+	padding: 0px;
+	border: 0px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #ffffff;
+	margin-bottom:5px;
+}
+
+.RoundedBlueHeader {
+-moz-border-radius:10px;
+    width:745px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: left;
+	margin: 5px 0 0 0;
+	padding: 0px;
+	font-style: normal;
+	text-decoration: none;
+	text-indent: 5px;
+	vertical-align: middle;
+	background-color:#6f8abd;
+}
+
+.BlueHeader {
+    width:700px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: left;
+	margin: 5px 0 0 0;
+	padding: 0px;
+	font-style: normal;
+	text-decoration: none;
+	text-indent: 5px;
+	vertical-align: middle;
+	background-color:#6f8abd;
+}
+
+.ContentArea {
+    width:750px;
+	padding: 0px;
+	border: 1px solid #CCCCCC;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #ffffff;
+	margin-bottom:5px;
+}
+
+.loggedInUsers{
+	width: 220px;
+	margin:0 auto;
+	margin-top:20px;
+	background-color:#5c79af;
+	padding:0 35px;
+	-moz-border-radius: 10px;
+}

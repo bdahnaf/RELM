@@ -1,0 +1,70 @@
+.field {
+border-bottom:1px solid white;
+font-family: Verdana, Arial, Sans-Serif;
+padding:2px 2px 2px 2px;
+color: red;
+background-color:#ffdfdf;
+font-weight: bold;
+}
+.field2 {
+border: 2px dotted red;
+padding:2px 2px 2px 2px;
+background: url(error.jpg) left top repeat-x;
+font-family: Verdana, Arial, Sans-Serif;
+background-color:white;
+color: #000;
+font-weight: regular;
+}
+.field3 {
+/*border-bottom:1px dotted black;*/
+font-family: Verdana, Arial, Sans-Serif;
+padding:2px 2px 2px 2px;
+color: black;
+background-color:#EFF0E0;
+font-weight:normal;
+}
+.field4 {
+border: 1px solid #DDDDDD;
+padding:2px 2px 2px 2px;
+background: url(error.jpg) left top repeat-x;
+font-family: Verdana, Arial, Sans-Serif;
+background-color:white;
+color: #000;
+font-weight: regular;
+} 
+.notice {
+        font-color: #000000;
+        font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+        font-size: 14px;
+        font-weight: regular;
+}
+.text {
+        font-color: #000;
+        font-family: Verdana, Arial, Sans-Serif;
+        font-size: 14px;
+        font-weight: regular;
+}
+
+.BlueHeader {    width:400px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: left;
+	margin: 5px 0 0 0;
+	padding: 0px;
+	font-style: normal;
+	text-decoration: none;
+	text-indent: 5px;
+	vertical-align: middle;
+	background-color:#5c96ae;
+}
+.ContentArea {    width:400px;
+	padding: 0px;
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #eff0e0;
+	margin-bottom:5px;
+}
